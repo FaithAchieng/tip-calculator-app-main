@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono',sans-serif;
+}
+.container{
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', sans-serif;
+}
+.bill-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+}
+.right-bill{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    background-color: hsl(183, 100%, 15%);
+    padding: 1em;
+}
+.left-bill{
+ width: 100%;
+}
+.bill{
+    width: 80%;
+    height: 1em;
+    background: url("./images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-radius: 0.2em;
+    background-color:  hsl(189, 41%, 97%);
+    border: 1px solid hsl(185, 41%, 97%);
+    text-align: right;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+}
+.tip{
+    width: 25%;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    height: 2em;
+    margin-bottom: 0.5em;
+    border-radius: 0.2em;
+}
+.people{
+    width: 80%;
+    height: 1em;
+    background: url("./images/icon-person.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-radius: 0.2em;
+    background-color:  hsl(189, 41%, 97%);
+    border: 1px solid hsl(185, 41%, 97%);
+    text-align: right;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+}
+.custom{
+    width: 24%;
+    height: 1.5em;
+    background-color:  hsl(189, 41%, 97%);
+    border: 1px solid hsl(185, 41%, 97%);
+    text-align: center;
+    border-radius: 0.2em;
+}
+.tip-amount{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+.amount{
+    margin-left: 100px;
+    margin-top: -50px;
+    color: hsl(172, 67%, 45%);
+    font-size: 24px;
+    background-color: hsl(183, 100%, 15%);
+    border: 1px solid hsl(183, 100%, 15%);
+    text-align: right;
+}
+.total-amount{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70px;
+    margin-top: 20px;
+}
+.total{
+    margin-left: 100px;
+    margin-top: -50px;
+    color: hsl(172, 67%, 45%);
+    font-size: 24px;
+    background-color: hsl(183, 100%, 15%);
+    border: 1px solid hsl(183, 100%, 15%);
+    text-align: right;
+}
+.reset-button{
+    width: 100%;
+    margin-top: 150px;
+    height: 2em;
+    background-color: hsl(172, 67%, 45%);
+    border: 1px solid hsl(172, 67%, 45%);
+    font-size: 20px;
+}

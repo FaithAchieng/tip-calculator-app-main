@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="bill-card">
+    <div class="left-bill">
+      <form >
+        <div>
+        <p>
+        <label for="bill" style="color:hsl(186, 14%, 43%);">Bill</label>
+      </p>
+        <input type="number" id="bill" name="bill" class="bill" step="0.01">
+      
+      </div>
+      <div>
+      <p>
+      <label for="select-tip" style="color:hsl(186, 14%, 43%);">Select Tip %</label>
+    </p>
+    <button class="tip">5%</button>
+      <button class="tip"> 10%</button>
+  <button class="tip">15%</button>
+    <button class="tip">25%</button>
+    <button class="tip">50%</button>
+      <input type="number" class="custom" placeholder="Custom">
+    </div>
+   <p>
+    <label for="people" style="color:hsl(186, 14%, 43%);">Number of People</label>
+   </p>
+  <input type="number" class="people">
+
+</div>
+  <div class="right-bill">
+    <div class="tip-amount">
+    <span style="color: hsl(0, 0%, 100%);">Tip Amount</span>  
+    <span style="color:  hsl(184, 14%, 56%);">/person</span>
+    <input type="number" class="amount" value="0.00" step="0.01">
+  </div>
+   <div class="total-amount">
+    <span style="color: hsl(0, 0%, 100%);">Total</span>
+    <span style="color: hsl(184, 14%, 56%);;">/person</span>
+  <input type="number" class="total" value="0.00" step="0.01">
+  </div>
+  
+
+   <button type="reset" class="reset-button">RESET</button>
+  </form>
+</div>
+</div>
+  
+ 
+</div>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/FaithAchieng">Faith Achieng</a>.
+</div>
+</body>
+</html>

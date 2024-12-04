@@ -11,6 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Space Mono', sans-serif;
+    flex-direction: column;
 }
 .bill-card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -120,4 +121,32 @@ body{
     background-color: hsl(172, 67%, 45%);
     border: 1px solid hsl(172, 67%, 45%);
     font-size: 20px;
+}
+.split{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+    color: hsl(183, 100%, 15%);
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px){
+    .bill-card{
+        flex-direction: column;
+        width: 32%;
+    }
+    .right-bill{
+        margin-right: 25px;
+        width: 90%;
+    }
+    .amount{
+        width: 170px;
+        
+    }
+    .total{
+        width: 170px;
+    }
+    .attribution{
+        width: 70%;
+        margin-left: 300px;
+    }
 }
